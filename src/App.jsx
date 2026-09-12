@@ -6,6 +6,7 @@ function App() {
   const [products, setProducts] = useState([]);
   const [selectedProduct, setSelectedProduct] = useState(null);
   console.log("hello world")
+  console.log("iam the react and js code")
 
   useEffect(() => {
     fetch("https://fakestoreapi.com/products")
